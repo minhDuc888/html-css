@@ -1,0 +1,52 @@
+
+*{
+    box-sizing: border-box;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.header{
+    background-color: #666;
+    color: white;
+    padding: 15px;
+    
+}
+.body1{
+    width: 100%;
+    float: left;
+    background: white;
+    margin: 10px;
+    height: fit-content;
+    
+}
+
+/*body{
+    display: block;
+}*/
+
+.left{
+    float:left;
+    width: 40%;
+    height: 200px;
+}
+.left1{
+    display: block;
+    background: lightseagreen;
+    margin: 5px;
+    color: white;
+}
+.right{
+    float: left;
+    width: 60%;
+    height: 200px;
+}
+
+.footer{
+    clear: both;
+    background: #666;
+    color: white;
+    padding: 15px;
+    
+}

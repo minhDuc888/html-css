@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atribute</title>
+    <style>
+        table,th,td{
+            padding: 5px;
+            border: 1px solid whitesmoke;
+            /*--border-collapse: collapse;*/
+        }
+
+        .div1{
+            height: 300px;
+            background: url("cellphone.jpg")  no-repeat 300px 0;
+            clear: both;
+            text-align: center;
+            color: black;
+        }
+    </style>
+</head>
+<body style="background-color: #121212;color: aliceblue;">
+    <h4><a href="#attr">attribute</a></p4>
+    <h4><a href="#fomat">format text</a></h4>
+    <h1 id= "attr">Attribute of HTML</h1><br>
+    <!--a is hefex link, style is attibute which you can add something-->
+    <a style="font-size: 20px;color: aliceblue;" href="https://www.w3schools.com/html/html_attributes.asp"> you can learn all Attributes in this page </a><br>
+    <br><!--BR TAG is break line-->
+    <hr><!-- hr tag is black line thi break somthing -->
+    <!--img is tag which you can add img to your browser-->
+    <img src="chan.jpg" alt="boring"><br>
+    <!--p is tag that you write any thing in sigle line-->
+    <p1 style="font-size: 41px;"> when i have bug in code</p1>
+    <!--pre is tag that you can write a poem, or something that need more lines-->
+    <!-- text-align: is css -->
+    <pre style="text-align: center;">
+        Never give up
+        Fall down and stand up again
+        Sucess is't easy
+        Try everyday to find it
+    </pre>
+    <a id="fomat"style="font-size: 20px;color: aliceblue;" href="https://www.w3schools.com/html/html_formatting.asp">You can learn some Format text in this page</a><br>
+    <pre>
+        <b> tag b is tag that bold text</b>
+        <strong>strong tag</strong> is define the important element
+        <em>tag em is tag to emphazize text this text will display in italic</em>
+        <mark>Mark tag</mark> is tag that is highlight text
+        <del>Del tag</del>is tag that define the element has been delete in a document
+        <ins>ins tag</ins> define the element which has ben insert in a document
+        <sub>Sub tag</sub> define the element below normal text
+        <sup>Sup tag</sup> define the elemnt above normal text
+    </pre>
+    <a style="font-size: 20px;color: aliceblue;" href="https://www.w3schools.com/html/html_quotation_elements.asp">You can learn Quotation in this page</a>
+    <p>Here is a quote from WWF's website:</p>
+    <!--blockquote tag is element defines a section that is quoted from another source-->
+    <!--cite tag defines the title of a creative work (e.g. a book, a poem, a song, a movie, a painting, a sculpture, etc.).-->
+    <blockquote cite="http://www.worldwildlife.org/who/index.html">
+    For 50 years, WWF has been protecting the future of nature.
+    The world's leading conservation organization,
+    WWF works in 100 countries and is supported by
+    1.2 million members in the United States and
+    close to 5 million globally.
+    </blockquote>
+    <!-- q is tag that define short quotation-->
+    <p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+    <!--abbr tag define an abbreviation or an acronym-->
+    <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+    <!--adress tag define the contact infomation , that display in italic text-->
+    <address>
+        Written by John Doe.<br>
+        Visit us at:<br>
+        Example.com<br>
+        Box 564, Disneyland<br>
+        USA
+    </address>
+    <!--<bdo> tag is used to override the current text direction-->
+    <!-- this tag ned a 'dir' to direct text-->
+    <bdo dir="rtl">This text will be written from right to left</bdo><br>
+    <a style="font-size:20px;color: aliceblue;" href="https://www.w3schools.com/html/html_colors.asp">You can learn HTML color in this page</a><br>
+    <a style="font-size:  20px;color: aliceblue;" href="https://www.w3schools.com/html/html_links.asp"> you can know some infomation in this page about Link</a>
+    <!--
+        syntax: <a href="...." target="attibute"> text </a>
+        attribute: 
+        _self: open a document in the same window
+        _blank:open in a new window
+        _parent: opent in parent frame
+        _top: open in the full body of the window
+        link to emailadress <a href="mailto: email@gmail.com> text </a>"
+        botton link <button onclick="...."> text </a>
+    -->
+    <br>
+    <a style="font-size: 20px;color: aliceblue;" href="https://www.w3schools.com/html/html_images.asp">HTML image</a>
+    <pre>
+        --As you know about somt attribute: src, slt, float. YOu can know others:
+        1.img map this is good to know some infomation
+        <!--htmp image map-->
+        <img src="workplace.jpg" alt="Workplace" usemap="#workmap"> 
+        <map name="workmap">
+        <!--rect is hình chữ nhật (x,y,z,t)(x,y là đỉnh trên bên trái,(z,t) đỉnh dưới bên phải)
+            cỉcle ís hinh tròn(x,y,z)(z,y là tâm hình tròn,z là bán kính)
+            poly is hình đa giác( nhiều đỉnh gộp lại)
+            default: toàn bộ địa chỉ hình
+            các chỉ số trong coords là vị trí của khung hình trong ảnh khi click vào khung hình ta sẽ có ảnh về khun khung hình đó
+        -->
+        <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.html">
+        <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.html">
+        <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.html">
+        </map> 
+    </pre>
+    <h2>Some note about background image</h2>
+    <pre>
+        <dev style="background-image: url(mac.jpg);color: aliceblue;font-size: 40px;">something text in here</dev>
+        <dev style="background-image:url(cellphone.jpg);color: black;font-size: 40px;">something text hear</dev>
+        <br>
+        <pre>You can note some attibute in background-image:
+            background-repeat:value...
+            background-size: value
+            background-attachment:value
+        </pre>
+        <pre>  html Picture element
+                syntax:
+            <picture>
+                <source media="value" srcset="image">
+                <source media="value" srcset="image">
+                <image src="image"> ảnh mặc định</image>     
+            </picture>
+        </pre>
+    </pre>
+    <a href="https://www.w3schools.com/html/html_tables.asp" style="font-size: 20px;color: aliceblue;">HTML table</a>
+    <table>
+        <caption>Attribute  and Tag with table</caption>
+        <tr>
+            <th>Atribute or Tag</th>
+            <th>Describle</th>
+        </tr>
+        <tr>
+            <td>Boder-collapse</td>
+            <td>to let the borer collapse into one boder</td>
+            
+        </tr>
+        <tr>
+            <td>border-spacing</td>
+            <td>to set the border-spacing for a table</td>
+           
+        </tr>
+        <tr>
+            <td>colspan</td>
+            <td>to make a cell span more than one column</td>
+        </tr>
+        <tr>
+            <td>rowspan</td>
+            <td>to make a cell spam more than one row</td>
+        </tr>
+        <tr>
+            <td>tag 'caption'</td>
+            <td>ad caption the to the table</td>
+        </tr>
+    </table>
+
+    <br>
+    <a href="https://www.w3schools.com/html/html_lists.asp" style="font-size: 20px;color: whitesmoke;"> HTML LIST</a>
+    <pr>
+        we will introduce some tag:
+        <pre>
+            //ul:the black cycle
+                //li 
+            //ul
+            //ol:the number
+                //li 
+            //ol
+            //dl:descipsion lis
+                //dt: name of element
+                //dd:descipsion of this element
+            //dl    
+        </pre>
+        <pre>
+            <p>we can use attibute : list-style-type in ul-li with the value below to make css to the list</p>
+            <ul>
+                <li >disc  :set the item market to a bullet(default)</li>
+                <li >circle:set list item market to a circle</li>
+                <li >square:set list item market to a square</li>
+                <li >none  : the lisr item will not be market</li>
+            </ul>
+        </pre>
+        <pre>
+            <p>We can use type attribute in ol-li list with the below value</p>
+            <ul>
+                <li type="1"> numble,type="1"</li>
+                <li type="A">uppercase,type="A" </li>
+                <li type="a">lowercase,type="a"</li>
+                <li type="I">upercase roman,type="I"</li>
+                <li type="i">lowercase roman,type="i"</li>
+            </ul>
+            <pr>attributre "start": which number or case you want to start in your list</pr>
+        </pre>
+    </pr>
+    <a href="https://www.w3schools.com/html/html_forms.asp" style="font-size: 20px;color: whitesmoke;">form HTML</a>
+    <p>html forms to collect input of users</p><br>
+    <form action="computer.html">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe"><br><br>
+        <input type="submit" value="Submit">
+    </form> 
+      
+    <p>If you click the "Submit" button, the form-data will be sent to a page "compute.html".</p>
+    <pre>
+        <h3>Syntax</h3>
+        form action="src"
+            with input :input type="" name="" value="" id=""
+                        label for="id" 
+            with checkbox: checkbox type="" name="" id="" value=""
+                           label for="id"
+            input type="submit" value="submit"
+        form
+    </pre>
+    <h3>Some attibute with Form</h3>
+    <div>
+        <div>
+        <table style="float: left; margin-right: 10px;height: 300px; width: 26%; ">
+            <caption>Value with Attribute target</caption>
+            <tr>
+                <th>value</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>_blank</th>
+                <td>respond in a new window</td>
+            </tr>
+            <tr>
+                <td>_self</th>
+                <td>respond in currrent window</td>
+            </tr>
+            <tr>
+                <td>_parent</th>
+                <td>respond in parent frame</td>
+            </tr>
+            <tr>
+                <td>_top</th>
+                <td>respond the full bodyof the window</td>
+            </tr>
+            <tr>
+                <td>framename</th>
+                <td>respond in a named iframe</td>
+            </tr>
+        </table>
+        </div>
+        <div>
+        <table style="float: left; margin-right: 10px; height: 300px;width: 18%; ">
+            <caption>value with Method</caption>
+            <tr>
+                <th>value</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>get</th>
+                <td>send data</td>
+            </tr>
+            <tr>
+                <td>post</th>
+                <td>post data</td>
+            </tr>
+        </table>
+        </div>
+        <div>
+        <table style="float: left; height: 300px;width: 850px;">
+            <caption>value with  others Attribute</caption>
+            <tr>
+                <th>Atribute</th>
+                <th>value</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td rowspan="2">Autocomplete</td>
+                <td>on</th>
+                <td>the browser automatically complete values based on values that the user has entered before</td>
+            </tr>
+            <tr>
+                <td>off</th>
+                <td>the browser don't automatically complete values based on values that the user has entered before</td>
+            </tr>
+            <tr>
+                <td>Novalidate</td>
+                <td></td>
+                <td>specifies that the form-data (input) should not be validated when submitted.</td>
+            </tr>
+        </table>
+        </div>
+    </div>    
+    
+    <br>
+    <h2>We have more <a href="https://www.w3schools.com/html/html_form_elements.asp" style="color: aliceblue;"> HTML Form Element</a> in here</h2>
+    <h2 style="float: left;">We have more<a href="https://www.w3schools.com/html/html_form_input_types.asp" style="color: blanchedalmond;">Input Types</a> in here</h2>
+    <div class="div1">Example about shrothand background</div>
+     
+</body>
+</html>
